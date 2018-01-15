@@ -19,8 +19,11 @@ html {
 
 body {
 	background: url("http://blog.iamnikon.com/en_GB/wp-content/uploads/APC-Content-Key-visiual_Clark-Little_compressed2.jpg");
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+        background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+        font: 18px/1.4 $georgia;
+        color: #000000;
 }
 
 .container {
