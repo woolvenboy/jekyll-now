@@ -1,5 +1,5 @@
 ---
-title: My first blog of Year 9
+title: Year 9 First Blog
 layout: post
 author: dylan.woolven
 permalink: /my-first-blog-of-year-9/
