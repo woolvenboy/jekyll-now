@@ -58,11 +58,14 @@ iframe {
 	color: #333;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
+.container {  
+	margin: 0 auto;  
+	max-width: 740px;  
+	border-radius: 3px;  
+	padding: 0 10px;  
+	width: 100%;  
+	background-color:rgba(255, 255, 255, 0.78);  
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 h1, h2, h3, h4, h5, h6 {
