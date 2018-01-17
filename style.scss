@@ -309,19 +309,24 @@ nav {
   }
 }
 
-//.wrapper-footer {
-  //margin-top: 50px;
- // border-top: 1px solid #ddd;
- // border-bottom: 1px solid #ddd;
- // background-color: $lightGray;
-//}
+//not using this at the moment
+.wrapper-footer { 
+	margin-top: 50px;  
+	border-top: 1px solid #ddd;  
+	border-bottom: 1px solid #ddd;  
+	background-color: black;
+}
 
-//footer {
- // padding: 20px 0;
-  //text-align: center;
-//}
+footer {  
+	padding: 20px 0;  
+	text-align: center;  
+	position: fixed;  
+	left: 47%;  
+	bottom: 0;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
